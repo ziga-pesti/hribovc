@@ -1,12 +1,36 @@
-# Hribovc
+# 🏔️ Hribovc — Integrated Alpine Safety & IoT Telemetry Platform
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Node.js-20.x-green.svg" alt="Node.js" />
+  <img src="https://img.shields.io/badge/React-18-61DAFB.svg" alt="React" />
+  <img src="https://img.shields.io/badge/React%20Native-Expo-000020.svg" alt="Expo" />
+  <img src="https://img.shields.io/badge/MongoDB-Database-47A248.svg" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/OpenCV-Python-5C3EE8.svg" alt="OpenCV" />
+  <img src="https://img.shields.io/badge/MQTT-Mosquitto-660066.svg" alt="MQTT" />
+  <img src="https://img.shields.io/badge/Docker-Compose-2496ED.svg" alt="Docker" />
+</p>
+
+> **Hribovc** is an integrated software ecosystem designed for safer hiking and route planning. It combines a modern web portal, an automated meteorological scraping and trail risk analysis backend, biometric face recognition authentication (Computer Vision), and a mobile IoT sensor client streaming real-time accelerometer and GPS data via MQTT.
+
+### 👥 Authors & Team (FERI, University of Maribor)
+- **Žiga Pešti** ([@kinderjajckapresenecenja](https://github.com/kinderjajckapresenecenja))
+- **Anja Grudnik** ([@anjagrudnik04-max](https://github.com/anjagrudnik04-max))
+- **Anže Žunec** ([@AnzeZunec](https://github.com/AnzeZunec))
+
+---
+
+## 🏛️ Arhitektura projekta
+
+Projekt pokriva tri ključne stebre:
+1. **Razvoj aplikacij za internet:** Spletna aplikacija (React, Vite, Leaflet interaktivni zemljevidi), REST API zgrajen z Express.js, MongoDB podatkovna baza ter avtomatizirano zajemanje (scraping) vremenskih podatkov in pohodniških poti.
+2. **Osnove računalniškega vida:** Biometrično preverjanje uporabnika in 2FA prijava s pomočjo prepoznave obraza (Python, OpenCV, NumPy, Haar Cascades / SVM).
+3. **Namenska programska oprema:** Mobilna aplikacija (React Native + Expo) za zajem podatkov pospeškometra in GPS lokacije ter realnočasovni prenos prek MQTT (Eclipse Mosquitto broker) v Docker vsebnikih.
+
+---
+
+# Hribovc — Navodila za namestitev in zagon
 
 Hribovc je projekt za varnejse nacrtovanje pohodov in vzponov. Zdruzuje spletno aplikacijo, backend z vremenskimi in pohodno-potnimi podatki, modul za prepoznavo obraza ter mobilno aplikacijo za zajem senzorskih podatkov.
-
-Projekt pokriva tri projektne predmete:
-
-- **Razvoj aplikacij za internet**: spletna aplikacija, backend API, MongoDB, scraping vremena in poti.
-- **Osnove racunalniskega vida**: prijava oziroma dodatno preverjanje uporabnika s prepoznavo obraza.
-- **Namenska programska oprema**: mobilna aplikacija za zajem pospeskomera, GPS lokacije in posiljanje podatkov prek MQTT.
 
 ## Kaj potrebujete pred zacetkom
 
