@@ -28,6 +28,56 @@ Projekt pokriva tri ključne stebre:
 
 ---
 
+## 📸 Predogled spletne aplikacije (Screenshots)
+
+<table width="100%">
+  <tr>
+    <td width="50%">
+      <h4 align="center">🏠 1. Vstopna stran (Domov)</h4>
+      <img src="docs/screenshots/01_domov.png" alt="Domov" />
+      <p align="center"><i>Predstavitev namena aplikacije in hiter dostop do ključnih funkcij.</i></p>
+    </td>
+    <td width="50%">
+      <h4 align="center">☀️ 2. Vremenske razmere & tveganja</h4>
+      <img src="docs/screenshots/02_vreme.png" alt="Vreme" />
+      <p align="center"><i>Razmere in ocena tveganja po nadmorskih višinah (nizko, srednje, visoko gorovje).</i></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h4 align="center">🥾 3. Iskalnik in filtri poti</h4>
+      <img src="docs/screenshots/03_poti.png" alt="Poti" />
+      <p align="center"><i>Iskanje in filtriranje planinskih poti glede na težavnost, regijo in primernost.</i></p>
+    </td>
+    <td width="50%">
+      <h4 align="center">📊 4. Podrobnosti poti in priporočila</h4>
+      <img src="docs/screenshots/04_podrobnosti_poti.png" alt="Podrobnosti poti" />
+      <p align="center"><i>Podroben profil poti, višinska razlika, čas hoje ter izračunana varnostna ocena.</i></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h4 align="center">🗺️ 5. Interaktivni zemljevid in načrtovanje</h4>
+      <img src="docs/screenshots/06_zemljevid_nacrtovanje.png" alt="Zemljevid" />
+      <p align="center"><i>Načrtovanje tras z Leaflet knjižnico, vizualizacija poti in predvideni časi.</i></p>
+    </td>
+    <td width="50%">
+      <h4 align="center">👤 6. Uporabniški profil & osvojeni vrhovi</h4>
+      <img src="docs/screenshots/05_profil.png" alt="Profil" />
+      <p align="center"><i>Beleženje osvojenih vrhov, zgodovina pohodov in osebne nastavitve.</i></p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <h4>📡 7. Telemetrija senzorjev (MQTT / IoT) & Avtentikacija</h4>
+      <img src="docs/screenshots/07_senzorji_racun.png" alt="Senzorji in račun" width="85%" />
+      <p align="center"><i>Spremljanje telemetrije mobilnih senzorjev (pospeškometer, GPS) v živo prek MQTT in varna prijava.</i></p>
+    </td>
+  </tr>
+</table>
+
+---
+
 # Hribovc — Navodila za namestitev in zagon
 
 Hribovc je projekt za varnejse nacrtovanje pohodov in vzponov. Zdruzuje spletno aplikacijo, backend z vremenskimi in pohodno-potnimi podatki, modul za prepoznavo obraza ter mobilno aplikacijo za zajem senzorskih podatkov.
